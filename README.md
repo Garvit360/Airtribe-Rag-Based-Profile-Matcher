@@ -4,7 +4,13 @@ Match job descriptions against resumes using semantic search (LangChain + Chroma
 
 ## Dataset
 
-Put your resume PDFs in the **`Resume/`** folder (or pass a different path when running).
+Resume PDFs are stored as **`Resume.zip`** in the repo. Before indexing, unzip to create the `Resume/` folder:
+
+```bash
+unzip Resume.zip
+```
+
+Then run `python resume_rag.py` (it reads from `Resume/` by default). Or put your own PDFs in a folder and pass its path: `python resume_rag.py /path/to/resumes`.
 
 ## How to start the application
 
@@ -18,6 +24,8 @@ pip install -r requirements.txt
 ```
 
 ### 2. Set your OpenAI API key
+
+Copy `.env.example` to `.env`, add your key, or:
 
 ```bash
 export OPENAI_API_KEY="your-key-here"
