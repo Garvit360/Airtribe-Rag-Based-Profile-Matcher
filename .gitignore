@@ -9,3 +9,6 @@ chroma_db/
 *.egg-info/
 dist/
 build/
+
+# Unpacked resume PDFs (track Resume.zip instead)
+Resume/
