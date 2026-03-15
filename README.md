@@ -50,7 +50,7 @@ python resume_rag.py /path/to/your/resumes
 Pass a job description as the first argument; prints JSON with top matches:
 
 ```bash
-python job_matcher.py "Senior Python developer. 5+ years experience. Machine Learning required."
+python job_matcher.py "Information Technology Specialist.4 years of experience. AV technical support."
 ```
 
 With no argument, a sample job description is used.
